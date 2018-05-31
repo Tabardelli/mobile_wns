@@ -19,19 +19,21 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
+
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome!
+          Yo voici mon text
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit App.js
+        Ca marche
         </Text>
         <Text style={styles.instructions}>
-          {instructions}
+         ET C EST INCROYABLE
+
         </Text>
       </View>
     );
